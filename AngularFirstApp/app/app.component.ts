@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
 import { CourseComponent } from './courses.component';
 import { AuthorComponent } from './authors.component';
-
+import {CustomerFormComponent} from './customer-form-validation/customer-form-component';
 
 
 @Component({
@@ -10,7 +10,8 @@ import { AuthorComponent } from './authors.component';
                 <courses></courses>
                 <author></author>
                 <PipeExamples></PipeExamples>
+                <customer-form></customer-form>
                 `,
-    directives:[CourseComponent,AuthorComponent]
+    directives: [CourseComponent, AuthorComponent]
 })
 export class AppComponent { }
