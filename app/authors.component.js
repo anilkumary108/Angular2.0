@@ -39,4 +39,3 @@ System.register(['./author.service', 'angular2/core'], function(exports_1, conte
         }
     }
 });
-//# sourceMappingURL=authors.component.js.map

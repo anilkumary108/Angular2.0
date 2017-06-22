@@ -1,0 +1,5 @@
+<li>{{hero.name}}</li>
+<hero-detail [hero]="selectedHero"></hero-detail>
+<li (click)="selectHero(hero)"></li>
+
+<input [(ngModel)]="hero">

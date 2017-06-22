@@ -30,7 +30,7 @@ System.register(['angular2/core', './courses.component', './authors.component'],
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "<h1>My First Angular 2 App Updated - 1 </h1>\n                <courses></courses>\n                <author></author>",
+                        template: "<h1>My First Angular 2 App Updated - 1 </h1>\n                <courses></courses>\n                <author></author>\n                <PipeExamples></PipeExamples>\n                ",
                         directives: [courses_component_1.CourseComponent, authors_component_1.AuthorComponent]
                     }), 
                     __metadata('design:paramtypes', [])
@@ -41,4 +41,3 @@ System.register(['angular2/core', './courses.component', './authors.component'],
         }
     }
 });
-//# sourceMappingURL=app.component.js.map

@@ -44,4 +44,3 @@ System.register(['angular2/core', './course.service', './auto-grow.directive'], 
         }
     }
 });
-//# sourceMappingURL=courses.component.js.map
