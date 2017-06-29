@@ -1,4 +1,4 @@
-# Angular 2.0 Sample Application
+# Angular 2.0 Sample Application.
 Application with 
 	components, 
 	Services, 
